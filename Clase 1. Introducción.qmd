@@ -1,24 +1,45 @@
 ---
 title: "Clase 1. Introducción"
-format: revealjs
-editor: visual
+author: "José Ruiz-Tagle M. PhD, MSc"
+format: 
+  revealjs:
+    theme: sky
 ---
 
-## Quarto
 
-Quarto enables youhttps://github.com/JoseRTM/Clases-Profe-Panda to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see <https://quarto.org/docs/presentations/>.
 
-## Bullets
+```{css, echo=F}
+/* Custom CSS to resize images */
+.image-link img {
+  max-width: 400px; /* Adjust the width as needed */
+  height: auto;
+}
 
-When you click the **Render** button a document will be generated that includes:
-
--   Content authored with markdown
--   Output from executable code
-
-## Code
-
-When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:
-
-```{r}
-1 + 1
+/* Custom CSS for image layout */
+.image-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 ```
+
+## Links de descarga de R y RStudio
+<div class="image-container">
+  [![R](https://www.r-project.org/logo/Rlogo.png)](https://cran.r-project.org/){.image-link} 
+  [![RStudio](https://www.rstudio.com/wp-content/uploads/2018/10/RStudio-Logo-Flat.png)](https://www.rstudio.com/products/rstudio/download/){.image-link}
+</div>
+
+
+::: aside
+1. Primero se instala R y luego RStudio
+2. Puedes pinchar el logo para ir directo al link de descarga
+:::
+
+## ¿Qué es R?
+- Software para análisis estadísticos
+- Lenguaje de programación
+- Código abierto
+- Gratuito
+- No tiene soporte oficial
+- Difícil para principiantes
+
